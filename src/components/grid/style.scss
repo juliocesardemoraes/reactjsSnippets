@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  align-content: start;
+}
+
+main {
+  min-height: 100vh;
+  background: #1e1e1e;
+}
+
+.product {
+  height: 200px;
+  border-radius: 1rem;
+  color: #fff;
+  background: #3d3838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
