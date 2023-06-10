@@ -4,6 +4,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import Grid from "./components/grid/Grid";
+import Modal from "./components/modal/Modal";
+
 
 const router = createBrowserRouter([
   {
@@ -13,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/grid",
     element: <Grid></Grid>,
+  },
+  {
+    path: "/modal",
+    element: <Modal><h1>teste</h1></Modal>,
   },
 ]);
 

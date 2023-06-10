@@ -10,6 +10,7 @@ function App() {
     <>
       <h1>Dev Mocks</h1>
       <a href="/grid">Grid</a>
+      <a href="/modal">Modal</a>
     </>
   );
 }
