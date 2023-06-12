@@ -9,8 +9,15 @@ function App() {
   return (
     <>
       <h1>Dev Mocks</h1>
-      <a href="/grid">Grid</a>
-      <a href="/modal">Modal</a>
+      <h5>Estes são snippets em reactjs para utilizar de graça.</h5>
+      <div className="cards__container">
+        <div className="card">
+          <a href="/grid">Grid</a>
+        </div>
+        <div className="card">
+          <a href="/modal">Modal</a>
+        </div>
+      </div>
     </>
   );
 }

@@ -6,6 +6,7 @@ export default function Modal({ children }) {
 
   return (
     <div
+      className="modal"
       content="modal"
       onClick={() => {
         if (showModal) setShowModal(false);
